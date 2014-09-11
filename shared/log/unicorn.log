@@ -1,0 +1,203 @@
+I, [2014-09-09T11:38:50.537726 #6632]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-09T11:38:50.538163 #6632]  INFO -- : worker=0 spawning...
+I, [2014-09-09T11:38:50.539034 #6632]  INFO -- : worker=1 spawning...
+I, [2014-09-09T11:38:50.539674 #6632]  INFO -- : master process ready
+I, [2014-09-09T11:38:50.542775 #6636]  INFO -- : worker=0 spawned pid=6636
+I, [2014-09-09T11:38:50.544421 #6636]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:38:50.547460 #6638]  INFO -- : worker=1 spawned pid=6638
+I, [2014-09-09T11:38:50.548408 #6638]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:38:53.326061 #6638]  INFO -- : worker=1 ready
+I, [2014-09-09T11:38:53.338460 #6636]  INFO -- : worker=0 ready
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:6632 (or pid=/vagrant/test_unicorn/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:6632 (or pid=/vagrant/test_unicorn/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:6632 (or pid=/vagrant/test_unicorn/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:6632 (or pid=/vagrant/test_unicorn/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:6632 (or pid=/vagrant/test_unicorn/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+I, [2014-09-09T11:47:25.691982 #6908]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-09T11:47:25.692587 #6908]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-09T11:47:25.694042 #6908]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2014-09-09T11:47:25.694297 #6908]  INFO -- : worker=0 spawning...
+I, [2014-09-09T11:47:25.695177 #6908]  INFO -- : worker=1 spawning...
+I, [2014-09-09T11:47:25.695908 #6908]  INFO -- : master process ready
+I, [2014-09-09T11:47:25.700936 #6911]  INFO -- : worker=0 spawned pid=6911
+I, [2014-09-09T11:47:25.703313 #6913]  INFO -- : worker=1 spawned pid=6913
+I, [2014-09-09T11:47:25.703586 #6911]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:47:25.705063 #6913]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:47:27.403537 #6913]  INFO -- : worker=1 ready
+I, [2014-09-09T11:47:27.418937 #6911]  INFO -- : worker=0 ready
+I, [2014-09-09T11:49:05.608454 #6955]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-09T11:49:05.609227 #6955]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+F, [2014-09-09T11:49:05.609726 #6955] FATAL -- : error adding listener addr=0.0.0.0:80
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `bind': Permission denied - bind(2) for 0.0.0.0:80 (Errno::EACCES)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `new_tcp_server'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:165:in `bind_listen'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+I, [2014-09-09T11:49:28.592504 #6990]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-09T11:49:28.592637 #6990]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+F, [2014-09-09T11:49:28.593082 #6990] FATAL -- : error adding listener addr=0.0.0.0:80
+/home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `bind': Permission denied - bind(2) for 0.0.0.0:80 (Errno::EACCES)
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `new_tcp_server'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:165:in `bind_listen'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /home/vagrant/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+I, [2014-09-09T11:49:32.529364 #7023]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-09T11:49:32.529837 #7023]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-09T11:49:32.531400 #7023]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-09T11:49:32.531676 #7023]  INFO -- : worker=0 spawning...
+I, [2014-09-09T11:49:32.532774 #7023]  INFO -- : worker=1 spawning...
+I, [2014-09-09T11:49:32.534206 #7023]  INFO -- : master process ready
+I, [2014-09-09T11:49:32.537583 #7026]  INFO -- : worker=0 spawned pid=7026
+I, [2014-09-09T11:49:32.539769 #7026]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:49:32.540793 #7029]  INFO -- : worker=1 spawned pid=7029
+I, [2014-09-09T11:49:32.545476 #7029]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:49:34.170497 #7026]  INFO -- : worker=0 ready
+I, [2014-09-09T11:49:34.169552 #7029]  INFO -- : worker=1 ready
+I, [2014-09-09T11:52:03.504714 #7069]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-09T11:52:03.505132 #7069]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-09T11:52:03.505752 #7069]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-09T11:52:03.506015 #7069]  INFO -- : worker=0 spawning...
+I, [2014-09-09T11:52:03.506733 #7069]  INFO -- : worker=1 spawning...
+I, [2014-09-09T11:52:03.507850 #7069]  INFO -- : master process ready
+I, [2014-09-09T11:52:03.511339 #7072]  INFO -- : worker=0 spawned pid=7072
+I, [2014-09-09T11:52:03.513696 #7072]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:52:03.515155 #7075]  INFO -- : worker=1 spawned pid=7075
+I, [2014-09-09T11:52:03.517371 #7075]  INFO -- : Refreshing Gem list
+I, [2014-09-09T11:52:06.206136 #7075]  INFO -- : worker=1 ready
+I, [2014-09-09T11:52:06.222558 #7072]  INFO -- : worker=0 ready
+I, [2014-09-11T01:19:57.853238 #7710]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T01:19:57.853915 #7710]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T01:19:57.854485 #7710]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T01:19:57.854514 #7710]  INFO -- : worker=0 spawning...
+I, [2014-09-11T01:19:57.855653 #7710]  INFO -- : worker=1 spawning...
+I, [2014-09-11T01:19:57.856792 #7713]  INFO -- : worker=0 spawned pid=7713
+I, [2014-09-11T01:19:57.858457 #7710]  INFO -- : master process ready
+I, [2014-09-11T01:19:57.863799 #7713]  INFO -- : Refreshing Gem list
+I, [2014-09-11T01:19:57.864577 #7716]  INFO -- : worker=1 spawned pid=7716
+I, [2014-09-11T01:19:57.864743 #7716]  INFO -- : Refreshing Gem list
+I, [2014-09-11T01:20:00.723635 #7713]  INFO -- : worker=0 ready
+I, [2014-09-11T01:20:00.754968 #7716]  INFO -- : worker=1 ready
+192.168.33.1 - - [11/Sep/2014 01:20:01] "GET /unicorn HTTP/1.1" 404 11855 0.4085
+192.168.33.1 - - [11/Sep/2014 01:20:14] "GET /vagrant/test_unicorn HTTP/1.1" 404 11868 0.4145
+192.168.33.1 - - [11/Sep/2014 01:20:22] "GET / HTTP/1.1" 200 - 0.0986
+192.168.33.1 - - [11/Sep/2014 01:21:21] "GET / HTTP/1.1" 304 - 0.0659
+192.168.33.1 - - [11/Sep/2014 01:21:23] "GET / HTTP/1.1" 304 - 0.0250
+I, [2014-09-11T02:17:39.742584 #7837]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T02:17:39.742921 #7837]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T02:17:39.750570 #7837]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T02:17:39.751075 #7837]  INFO -- : worker=0 spawning...
+I, [2014-09-11T02:17:39.752088 #7837]  INFO -- : worker=1 spawning...
+I, [2014-09-11T02:17:39.753338 #7837]  INFO -- : master process ready
+I, [2014-09-11T02:17:39.756855 #7840]  INFO -- : worker=0 spawned pid=7840
+I, [2014-09-11T02:17:39.759684 #7840]  INFO -- : Refreshing Gem list
+I, [2014-09-11T02:17:39.760400 #7843]  INFO -- : worker=1 spawned pid=7843
+I, [2014-09-11T02:17:39.760634 #7843]  INFO -- : Refreshing Gem list
+I, [2014-09-11T02:17:42.513994 #7843]  INFO -- : worker=1 ready
+I, [2014-09-11T02:17:42.530919 #7840]  INFO -- : worker=0 ready
+I, [2014-09-11T02:18:25.929173 #7880]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T02:18:25.929571 #7880]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T02:18:25.930289 #7880]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T02:18:25.930518 #7880]  INFO -- : worker=0 spawning...
+I, [2014-09-11T02:18:25.931459 #7880]  INFO -- : worker=1 spawning...
+I, [2014-09-11T02:18:25.932796 #7880]  INFO -- : master process ready
+I, [2014-09-11T02:18:25.932992 #7883]  INFO -- : worker=0 spawned pid=7883
+I, [2014-09-11T02:18:25.935808 #7883]  INFO -- : Refreshing Gem list
+I, [2014-09-11T02:18:25.938318 #7886]  INFO -- : worker=1 spawned pid=7886
+I, [2014-09-11T02:18:25.943374 #7886]  INFO -- : Refreshing Gem list
+I, [2014-09-11T02:18:28.866099 #7886]  INFO -- : worker=1 ready
+I, [2014-09-11T02:18:28.904211 #7883]  INFO -- : worker=0 ready
+I, [2014-09-11T02:19:16.797183 #7880]  INFO -- : reaped #<Process::Status: pid 7883 exit 0> worker=0
+I, [2014-09-11T02:19:16.798369 #7880]  INFO -- : reaped #<Process::Status: pid 7886 exit 0> worker=1
+I, [2014-09-11T02:19:16.798621 #7880]  INFO -- : master complete
+I, [2014-09-11T02:21:32.759059 #4443]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T02:21:32.759494 #4443]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T02:21:32.771405 #4443]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T02:21:32.771767 #4443]  INFO -- : worker=0 spawning...
+I, [2014-09-11T02:21:32.772390 #4443]  INFO -- : worker=1 spawning...
+I, [2014-09-11T02:21:32.773118 #4443]  INFO -- : master process ready
+I, [2014-09-11T02:21:32.773482 #4446]  INFO -- : worker=0 spawned pid=4446
+I, [2014-09-11T02:21:32.775572 #4446]  INFO -- : Refreshing Gem list
+I, [2014-09-11T02:21:32.778468 #4449]  INFO -- : worker=1 spawned pid=4449
+I, [2014-09-11T02:21:32.780888 #4449]  INFO -- : Refreshing Gem list
+I, [2014-09-11T02:21:35.981731 #4446]  INFO -- : worker=0 ready
+I, [2014-09-11T02:21:35.984348 #4449]  INFO -- : worker=1 ready
+192.168.33.1 - - [11/Sep/2014 02:21:40] "GET / HTTP/1.1" 304 - 0.5627
+192.168.33.1 - - [11/Sep/2014 02:21:47] "GET / HTTP/1.1" 304 - 0.4174
+192.168.33.1 - - [11/Sep/2014 02:24:37] "GET / HTTP/1.1" 304 - 0.0262
+192.168.33.1 - - [11/Sep/2014 02:32:28] "GET / HTTP/1.1" 304 - 0.0231
+192.168.33.1 - - [11/Sep/2014 02:36:08] "GET / HTTP/1.1" 304 - 0.0275
+192.168.33.1 - - [11/Sep/2014 02:46:32] "GET / HTTP/1.1" 304 - 0.0314
+I, [2014-09-11T06:28:21.734072 #4621]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T06:28:21.734957 #4621]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T06:28:21.747690 #4621]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T06:28:21.747917 #4621]  INFO -- : worker=0 spawning...
+I, [2014-09-11T06:28:21.748956 #4621]  INFO -- : worker=1 spawning...
+I, [2014-09-11T06:28:21.750644 #4621]  INFO -- : master process ready
+I, [2014-09-11T06:28:21.754734 #4624]  INFO -- : worker=0 spawned pid=4624
+I, [2014-09-11T06:28:21.755839 #4624]  INFO -- : Refreshing Gem list
+I, [2014-09-11T06:28:21.758306 #4627]  INFO -- : worker=1 spawned pid=4627
+I, [2014-09-11T06:28:21.758778 #4627]  INFO -- : Refreshing Gem list
+I, [2014-09-11T06:28:24.556959 #4624]  INFO -- : worker=0 ready
+I, [2014-09-11T06:28:24.565211 #4627]  INFO -- : worker=1 ready
+I, [2014-09-11T06:30:04.016447 #4766]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T06:30:04.017305 #4766]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T06:30:04.029231 #4766]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T06:30:04.030036 #4766]  INFO -- : worker=0 spawning...
+I, [2014-09-11T06:30:04.031754 #4766]  INFO -- : worker=1 spawning...
+I, [2014-09-11T06:30:04.032636 #4766]  INFO -- : master process ready
+I, [2014-09-11T06:30:04.040518 #4771]  INFO -- : worker=1 spawned pid=4771
+I, [2014-09-11T06:30:04.041193 #4771]  INFO -- : Refreshing Gem list
+I, [2014-09-11T06:30:04.041494 #4769]  INFO -- : worker=0 spawned pid=4769
+I, [2014-09-11T06:30:04.041986 #4769]  INFO -- : Refreshing Gem list
+I, [2014-09-11T06:30:06.752691 #4769]  INFO -- : worker=0 ready
+I, [2014-09-11T06:30:06.780787 #4771]  INFO -- : worker=1 ready
+I, [2014-09-11T06:32:19.579355 #4377]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-09-11T06:32:19.579778 #4377]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-09-11T06:32:19.591767 #4377]  INFO -- : listening on addr=0.0.0.0:8000 fd=11
+I, [2014-09-11T06:32:19.592222 #4377]  INFO -- : worker=0 spawning...
+I, [2014-09-11T06:32:19.592863 #4377]  INFO -- : worker=1 spawning...
+I, [2014-09-11T06:32:19.593440 #4377]  INFO -- : master process ready
+I, [2014-09-11T06:32:19.593635 #4380]  INFO -- : worker=0 spawned pid=4380
+I, [2014-09-11T06:32:19.597374 #4380]  INFO -- : Refreshing Gem list
+I, [2014-09-11T06:32:19.597870 #4383]  INFO -- : worker=1 spawned pid=4383
+I, [2014-09-11T06:32:19.598468 #4383]  INFO -- : Refreshing Gem list
+I, [2014-09-11T06:32:22.852793 #4383]  INFO -- : worker=1 ready
+I, [2014-09-11T06:32:22.866728 #4380]  INFO -- : worker=0 ready
+192.168.33.1 - - [11/Sep/2014 06:32:23] "GET / HTTP/1.1" 304 - 0.5522
+192.168.33.1 - - [11/Sep/2014 06:32:23] "GET %2Ffavicon.ico HTTP/1.1" 200 - 0.1316
+192.168.33.1 - - [11/Sep/2014 06:44:38] "GET / HTTP/1.1" 304 - 0.3083
+192.168.33.1 - - [11/Sep/2014 06:49:29] "GET /rails/info/properties HTTP/1.1" 200 - 0.0915
+192.168.33.1 - - [11/Sep/2014 06:52:17] "GET / HTTP/1.1" 304 - 0.0282
+192.168.33.1 - - [11/Sep/2014 06:52:19] "GET /rails/info/properties HTTP/1.1" 304 - 0.0218
